@@ -1,0 +1,230 @@
+[0.005s] Invoking command in '/home/jayson/Chap3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jayson/Chap3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/jayson/Chap3/topic_practice_ws/install/status_interfaces
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.076s] -- The CXX compiler identification is GNU 11.4.0
+[0.080s] -- Detecting C compiler ABI info
+[0.123s] -- Detecting C compiler ABI info - done
+[0.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.128s] -- Detecting C compile features
+[0.128s] -- Detecting C compile features - done
+[0.130s] -- Detecting CXX compiler ABI info
+[0.180s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.275s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.324s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.341s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.343s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.347s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.361s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.369s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.520s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.799s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.815s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.815s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.815s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.815s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.827s] -- Found PythonExtra: .so  
+[0.848s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.856s] -- Added test 'lint_cmake' to check CMake code style
+[0.856s] -- Added test 'xmllint' to check XML markup files
+[0.857s] -- Configuring done
+[0.883s] -- Generating done
+[0.889s] -- Build files have been written to: /home/jayson/Chap3/topic_practice_ws/build/status_interfaces
+[0.895s] Invoked command in '/home/jayson/Chap3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jayson/Chap3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/jayson/Chap3/topic_practice_ws/install/status_interfaces
+[0.896s] Invoking command in '/home/jayson/Chap3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jayson/Chap3/topic_practice_ws/build/status_interfaces -- -j8 -l8
+[0.920s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.926s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.932s] [  6%] Built target ament_cmake_python_copy_status_interfaces
+[1.062s] running egg_info
+[1.062s] creating status_interfaces.egg-info
+[1.062s] writing status_interfaces.egg-info/PKG-INFO
+[1.062s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[1.063s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[1.063s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.064s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.064s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[1.083s] [  6%] Built target ament_cmake_python_build_status_interfaces_egg
+[1.090s] [  9%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[1.093s] [  9%] Built target status_interfaces__cpp
+[1.099s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.099s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.102s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.121s] [ 22%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[1.153s] [ 22%] Built target status_interfaces__rosidl_generator_c
+[1.159s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.160s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.160s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.266s] [ 35%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[1.267s] [ 38%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[1.269s] [ 41%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[1.345s] [ 45%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[1.350s] [ 48%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[1.355s] [ 51%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[1.367s] [ 54%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[1.380s] [ 58%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.393s] [ 58%] Built target status_interfaces__rosidl_typesupport_c
+[1.405s] [ 58%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[1.445s] [ 61%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[1.469s] [ 61%] Built target status_interfaces__rosidl_typesupport_cpp
+[1.497s] [ 64%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.505s] [ 67%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.541s] [ 67%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.547s] [ 67%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[1.565s] [ 70%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.607s] [ 70%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[1.624s] [ 70%] Built target status_interfaces
+[1.636s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.841s] [ 74%] Built target status_interfaces__py
+[1.852s] [ 77%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[1.910s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/libstatus_interfaces__rosidl_generator_py.so[0m
+[1.935s] [ 80%] Built target status_interfaces__rosidl_generator_py
+[1.947s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.948s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.948s] [ 90%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.000s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.001s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.003s] [100%] [32m[1mLinking C shared library rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.022s] [100%] Built target status_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.024s] [100%] Built target status_interfaces__rosidl_typesupport_c__pyext
+[2.025s] [100%] Built target status_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.033s] Invoked command in '/home/jayson/Chap3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jayson/Chap3/topic_practice_ws/build/status_interfaces -- -j8 -l8
+[2.040s] Invoking command in '/home/jayson/Chap3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jayson/Chap3/topic_practice_ws/build/status_interfaces
+[2.044s] -- Install configuration: ""
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[2.045s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[2.046s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[2.046s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.046s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.046s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.046s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.046s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.046s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.046s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.046s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[2.047s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.047s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.047s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.047s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.047s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.047s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.047s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.048s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.048s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.048s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[2.048s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[2.048s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[2.048s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.048s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[2.048s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[2.048s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[2.048s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[2.048s] -- Up-to-date: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.049s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[2.049s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status_s.c
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.049s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/libstatus_interfaces__rosidl_generator_py.so
+[2.050s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.050s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[2.069s] Listing '/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces'...
+[2.069s] Compiling '/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/__init__.py'...
+[2.069s] Listing '/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg'...
+[2.069s] Compiling '/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/__init__.py'...
+[2.069s] Compiling '/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/msg/_system_status.py'...
+[2.072s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.072s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.072s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.072s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.072s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.073s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[2.073s] -- Set runtime path of "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[2.073s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.074s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.075s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.076s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.076s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.076s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.076s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[2.076s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[2.076s] -- Installing: /home/jayson/Chap3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[2.078s] Invoked command in '/home/jayson/Chap3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jayson/Chap3/topic_practice_ws/build/status_interfaces

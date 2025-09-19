@@ -1,0 +1,4 @@
+[01m[K/home/jayson/Chap3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:[m[K In constructor ‘[01m[KTurtleCircleNode::TurtleCircleNode(const string&)[m[K’:
+[01m[K/home/jayson/Chap3/topic_ws/src/demo_cpp_topic/src/turtle_circle.cpp:15:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   15 |     explicit TurtleCircleNode([01;35m[Kconst std::string& node_name[m[K):Node("node_name")   //隐式转换：……
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K

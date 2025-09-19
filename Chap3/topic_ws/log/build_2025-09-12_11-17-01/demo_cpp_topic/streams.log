@@ -1,0 +1,54 @@
+[0.016s] Invoking command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jayson/Chap3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[0.063s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.170s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.203s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.207s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.216s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.280s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.358s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.412s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.425s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.463s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.519s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.519s] -- Configured cppcheck include dirs: 
+[0.519s] -- Configured cppcheck exclude dirs and/or files: 
+[0.520s] -- Added test 'lint_cmake' to check CMake code style
+[0.520s] -- Added test 'uncrustify' to check C / C++ code style
+[0.521s] -- Configured uncrustify additional arguments: 
+[0.521s] -- Added test 'xmllint' to check XML markup files
+[0.523s] -- Configuring done
+[0.535s] -- Generating done
+[0.540s] -- Build files have been written to: /home/jayson/Chap3/topic_ws/build/demo_cpp_topic
+[0.559s] [35m[1mConsolidate compiler generated dependencies of target turtle_circle[0m
+[0.566s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[0.569s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[4.886s] [ 75%] [32m[1mLinking CXX executable turtle_circle[0m
+[5.117s] [ 75%] Built target turtle_circle
+[7.889s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[8.155s] [100%] Built target turtle_control
+[8.169s] Invoked command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jayson/Chap3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[8.184s] Invoking command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jayson/Chap3/topic_ws/build/demo_cpp_topic
+[8.194s] -- Install configuration: ""
+[8.195s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[8.197s] -- Set runtime path of "/home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[8.197s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[8.201s] -- Set runtime path of "/home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[8.201s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[8.201s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[8.201s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[8.202s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[8.202s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[8.202s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[8.202s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[8.202s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[8.204s] Invoked command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jayson/Chap3/topic_ws/build/demo_cpp_topic

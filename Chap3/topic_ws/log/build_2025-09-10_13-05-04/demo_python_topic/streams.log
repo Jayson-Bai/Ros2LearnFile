@@ -1,0 +1,25 @@
+[0.376s] Invoking command in '/home/jayson/Chap3/topic_ws/src/demo_python_topic': PYTHONPATH=/home/jayson/Chap3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/jayson/Chap3/topic_ws/build/demo_python_topic/build install --record /home/jayson/Chap3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.511s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[0.512s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[0.514s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[0.514s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[0.514s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[0.517s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.517s] adding license file 'LICENSE'
+[0.518s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[0.519s] running build
+[0.519s] running build_py
+[0.520s] copying demo_python_topic/novel_pub_node.py -> /home/jayson/Chap3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic
+[0.520s] running install
+[0.521s] running install_lib
+[0.524s] copying /home/jayson/Chap3/topic_ws/build/demo_python_topic/build/lib/demo_python_topic/novel_pub_node.py -> /home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic
+[0.525s] byte-compiling /home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic/novel_pub_node.py to novel_pub_node.cpython-310.pyc
+[0.528s] running install_data
+[0.528s] running install_egg_info
+[0.532s] removing '/home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.533s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages/demo_python_topic-0.0.0-py3.10.egg-info
+[0.543s] running install_scripts
+[0.570s] Installing novel_pub_node script to /home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[0.571s] writing list of installed files to '/home/jayson/Chap3/topic_ws/build/demo_python_topic/install.log'
+[0.591s] Invoked command in '/home/jayson/Chap3/topic_ws/src/demo_python_topic' returned '0': PYTHONPATH=/home/jayson/Chap3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jayson/Chap3/topic_ws/install/demo_python_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/jayson/Chap3/topic_ws/build/demo_python_topic/build install --record /home/jayson/Chap3/topic_ws/build/demo_python_topic/install.log --single-version-externally-managed install_data

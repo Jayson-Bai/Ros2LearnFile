@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jayson/Chap3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/jayson/Chap3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target turtle_control[0m
+[0.049s] [ 50%] Built target turtle_circle
+[0.052s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[5.735s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[6.011s] [100%] Built target turtle_control
+[6.021s] Invoked command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jayson/Chap3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --build /home/jayson/Chap3/topic_ws/build/demo_cpp_topic -- -j8 -l8
+[6.028s] Invoking command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jayson/Chap3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/jayson/Chap3/topic_ws/build/demo_cpp_topic
+[6.032s] -- Install configuration: ""
+[6.032s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[6.032s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control
+[6.035s] -- Set runtime path of "/home/jayson/Chap3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[6.035s] -- Installing: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[6.035s] -- Up-to-date: /home/jayson/Chap3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[6.037s] Invoked command in '/home/jayson/Chap3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jayson/Chap3/topic_ws/install/demo_python_topic:/opt/ros/humble /usr/bin/cmake --install /home/jayson/Chap3/topic_ws/build/demo_cpp_topic

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jayson/Chap3/topic_practice_ws/build/status_interfaces/status_interfaces__py
+# Install script for directory: /root/Ros2LearnFile/Chap3/topic_practice_ws/build/status_interfaces/status_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jayson/Chap3/topic_practice_ws/install/status_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/root/Ros2LearnFile/Chap3/topic_practice_ws/install/status_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

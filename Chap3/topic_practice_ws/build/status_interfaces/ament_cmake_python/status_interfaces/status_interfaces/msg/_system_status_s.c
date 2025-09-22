@@ -110,13 +110,13 @@ bool status_interfaces__msg__system_status__convert_from_py(PyObject * _pymsg, v
     ros_message->memory_total = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // memory_availabe
-    PyObject * field = PyObject_GetAttrString(_pymsg, "memory_availabe");
+  {  // memory_available
+    PyObject * field = PyObject_GetAttrString(_pymsg, "memory_available");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->memory_availabe = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->memory_available = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
   {  // net_sent
@@ -223,11 +223,11 @@ PyObject * status_interfaces__msg__system_status__convert_to_py(void * raw_ros_m
       }
     }
   }
-  {  // memory_availabe
+  {  // memory_available
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->memory_availabe);
+    field = PyFloat_FromDouble(ros_message->memory_available);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "memory_availabe", field);
+      int rc = PyObject_SetAttrString(_pymessage, "memory_available", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

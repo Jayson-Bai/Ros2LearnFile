@@ -66,7 +66,7 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         '_cpu_percent',
         '_memory_percent',
         '_memory_total',
-        '_memory_availabe',
+        '_memory_available',
         '_net_sent',
         '_net_recv',
     ]
@@ -77,7 +77,7 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         'cpu_percent': 'float',
         'memory_percent': 'float',
         'memory_total': 'float',
-        'memory_availabe': 'float',
+        'memory_available': 'float',
         'net_sent': 'double',
         'net_recv': 'double',
     }
@@ -103,7 +103,7 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         self.cpu_percent = kwargs.get('cpu_percent', float())
         self.memory_percent = kwargs.get('memory_percent', float())
         self.memory_total = kwargs.get('memory_total', float())
-        self.memory_availabe = kwargs.get('memory_availabe', float())
+        self.memory_available = kwargs.get('memory_available', float())
         self.net_sent = kwargs.get('net_sent', float())
         self.net_recv = kwargs.get('net_recv', float())
 
@@ -146,7 +146,7 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
             return False
         if self.memory_total != other.memory_total:
             return False
-        if self.memory_availabe != other.memory_availabe:
+        if self.memory_available != other.memory_available:
             return False
         if self.net_sent != other.net_sent:
             return False
@@ -232,19 +232,19 @@ class SystemStatus(metaclass=Metaclass_SystemStatus):
         self._memory_total = value
 
     @builtins.property
-    def memory_availabe(self):
-        """Message field 'memory_availabe'."""
-        return self._memory_availabe
+    def memory_available(self):
+        """Message field 'memory_available'."""
+        return self._memory_available
 
-    @memory_availabe.setter
-    def memory_availabe(self, value):
+    @memory_available.setter
+    def memory_available(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'memory_availabe' field must be of type 'float'"
+                "The 'memory_available' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'memory_availabe' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._memory_availabe = value
+                "The 'memory_available' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._memory_available = value
 
     @builtins.property
     def net_sent(self):

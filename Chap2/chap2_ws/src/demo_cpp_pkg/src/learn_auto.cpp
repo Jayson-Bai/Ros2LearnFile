@@ -1,0 +1,13 @@
+#include "iostream"
+
+int main()
+{
+    auto x = 5;    //自动类型推导auto
+    auto y = 3.14f; 
+    auto z = 'a';
+    std::cout<<x<<std::endl;
+    std::cout<<y<<std::endl;
+    std::cout<<z<<std::endl;
+    
+    return 0;
+}

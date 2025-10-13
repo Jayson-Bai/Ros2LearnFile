@@ -1,0 +1,16 @@
+# colcon 生成的
+build/
+install/
+log/
+
+# VSCode 配置
+.vscode/
+
+# CMake 缓存文件
+CMakeCache.txt
+CMakeFiles/
+
+# 常见的临时文件
+#*.swp
+#*.user
+#*.DS_Store

@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME} "srv/FaceDetector.srv" "srv/Patrol.srv" DEPENDENCIES sensor_msgs)
+rosidl_generate_interfaces(${PROJECT_NAME} "srv/FaceDetector.srv" "srv/Patrol.srv" DEPENDENCIES sensor_msgs) #添加服务消息接口
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

@@ -13,7 +13,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
 
 add_executable(turtle_control src/turtle_control.cpp)
+add_executable(patrol_client src/patrol_client.cpp)
 ament_target_dependencies(turtle_control chap4_interfaces rclcpp geometry_msgs turtlesim)
+ament_target_dependencies(patrol_client chap4_interfaces rclcpp  )
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -27,6 +29,6 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(TARGETS turtle_control DESTINATION lib/${PROJECT_NAME})
+install(TARGETS turtle_control patrol_client DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

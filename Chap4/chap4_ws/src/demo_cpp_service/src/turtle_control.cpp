@@ -3,8 +3,10 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "turtlesim/msg/pose.hpp"
 #include "chap4_interfaces/srv/patrol.hpp"
+#include "rcl_interfaces/msg/set_parameters_result.hpp"
 
 using Patrol = chap4_interfaces::srv::Patrol;
+using SetParametersResult = rcl_interfaces::msg::SetParametersResult;
 
 class TurtleController : public rclcpp::Node //TurtleController类 定义
 {
@@ -17,11 +19,39 @@ private:
         double target_y_{1.0};
         double k_{1.0};
         double max_speed_{3.0};
+        OnSetParametersCallbackHandle::SharedPtr parameter_callback_handle;
 
 //创建TurtleController对象，
 public:
     TurtleController() : Node("turtle_controller") //构造函数，初始化其作为ros2节点的属性，并命名为turtle_controller
-    {
+    {   
+        //参数化声明
+        this->declare_parameter("k",1.0);
+        this->declare_parameter("max_speed",1.0);
+        this->get_parameter("k",k_);
+        this->get_parameter("max_speed",max_speed_);
+        this->set_parameter(rclcpp::Parameter("k",2.0));
+
+        parameter_callback_handle = this -> add_on_set_parameters_callback( [&](const std::vector<rclcpp::Parameter> & parameters) 
+        -> rcl_interfaces::msg::SetParametersResult
+        {
+            rcl_interfaces::msg::SetParametersResult result;
+            result.successful = true;
+            for (const auto & parameter : parameters) 
+            {
+                RCLCPP_INFO(this->get_logger(),"更新参数的值%s=%f",parameter.get_name().c_str(),parameter.as_double());
+                if (parameter.get_name() == "k")
+                {
+                    k_ = parameter.as_double();
+                }
+                if (parameter.get_name() == "max_speed")
+                {
+                    max_speed_ = parameter.as_double();
+                }
+            }
+            return result;
+        });
+
         patrol_service_ = this->create_service<Patrol> //调用从rclcpp::Node继承来的create_service方法创建服务，服务接口模板Patrol：
         ("patrol",  //服务名称
         [&](const Patrol::Request::SharedPtr request, Patrol::Response::SharedPtr response) -> void //Lambda函数，服务的回调函数    
